@@ -14,8 +14,8 @@ time.sleep(2)
 #Login to Quora
 def LoginPage():
     #Credentials
-    username = 'tiagoluizd@gmail.com'
-    pwd = 'Amoroma1982'
+    username = 'enter username here'
+    pwd = 'enter password here'
     #Login Form
     form = driver.find_element_by_class_name("form_inputs")
     usernamefield = form.find_element_by_name("email")
